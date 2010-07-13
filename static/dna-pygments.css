@@ -1,0 +1,21 @@
+/* default styles for dna-pygments */
+
+.exon {
+    color: blue;
+    background-color: #e6e6fa;
+}
+
+.intron {
+    color: gray;
+}
+
+.CDS, .mRNA {
+}
+
+.gene {
+}
+
+.CAAT_signal {
+    background-color: green;
+    color: white;
+}

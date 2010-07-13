@@ -1,0 +1,94 @@
+
+LOCUS       GHCAB                   1746 bp    DNA     linear   PLN 09-MAY-1995
+DEFINITION  G.hirsutum cab gene for chlorophyll ab binding protein.
+ACCESSION   X54090 S93317
+VERSION     X54090.1  GI:18481
+KEYWORDS    CAB gene; chlorophyll a/b-binding protein; photosynthesis.
+SOURCE      upland cotton.
+  ORGANISM  Gossypium hirsutum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; core eudicots;
+            Rosidae; eurosids II; Malvales; Malvaceae; Gossypium.
+REFERENCE   1  (bases 1 to 1746)
+  AUTHORS   Dure,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-1990) Dure L., University of Georgia,
+            Biochemistry Department, Athens GA 30602, U S A
+REFERENCE   2  (bases 1 to 1746)
+  AUTHORS   Sagliocco,F., Kapazoglou,A. and Dure,L. III.
+  TITLE     Sequence of cab-151, a gene encoding a photosystem II type II
+            chlorophyll a/b-binding protein in cotton
+  JOURNAL   Plant Mol. Biol. 18 (4), 841-842 (1992)
+  MEDLINE   92216066
+COMMENT     For other cotton genes see X54091 & X54092.
+FEATURES             Location/Qualifiers
+     source          1..1746
+                     /organism="Gossypium hirsutum"
+                     /cultivar="Coker 201"
+                     /db_xref="taxon:3635"
+                     /clone="gFA 151"
+                     /haplotype="n=13"
+                     /tissue_type="leaf"
+                     /clone_lib="lambda cotton"
+                     /dev_stage="leaf"
+     CAAT_signal     352..356
+                     /note="likely CAAT box"
+     mRNA            join(<454..599,690..>1341)
+                     /gene="cab"
+     gene            454..1341
+                     /gene="cab"
+     exon            <454..597
+                     /gene="cab"
+                     /number=1
+     CDS             join(454..599,690..1341)
+                     /gene="cab"
+                     /codon_start=1
+                     /product="chlorophyll ab binding protein"
+                     /protein_id="CAA38025.1"
+                     /db_xref="GI:452314"
+                     /db_xref="SWISS-PROT:P27518"
+                     /translation="MATSAIQQSAFAGQTALKQSNELVCKIGAVGGGRVSMRRTVKSA
+                     PTSIWYGPDRPKYLGPFSDQIPSYLTGEFPGDYGWDTAGLSADPETFAKNRELEVIHC
+                     RWAMLGALGCVFPEILSKNGVKFGEAVWFKAGSQIFSEGGLDYLGNPNLIHAQSILAI
+                     WACQVVLMGFVEGYRVGGGPLGEGLDPIYPGGAFDPLGLADDPDAFAELKVKEIKNGR
+                     LAMFSMFGFFVQAIVTGKGPIENLFDHLADPVANNAWAYATNFVPGK"
+     intron          600..689
+                     /gene="cab"
+                     /number=1
+     exon            691..>1341
+                     /gene="cab"
+                     /number=2
+BASE COUNT      524 a    334 c    339 g    549 t
+ORIGIN
+        1 tctagacttt ttaaaatgtt taattttttt ttacacatat ggtaaatatc tttattttta
+       61 aattatgtaa ttaaaaatta ctgttgaaac attgattcag aaacaaattt aaaaataaat
+      121 ttaaaatatt ttttatatta ttttagaata atatatttaa aagaatttct gctaattaaa
+      181 tatttttttt aaaatttatt attaattaat taaaaataaa aaaaataaaa accccaaacg
+      241 aaagaatggg aattgattta gatatctatc aaaagaatcc tgtaaatcat acgtggcatg
+      301 acagtagcct taaatctgtt gaaagaaaat ctaacgtgga ggaatccaca tccaatagat
+      361 tgctgctgac atgtacattt cctgaatcac ataaatcgcc acaacaatcg gcaaacagaa
+      421 ccaagtctaa tctaaaagct ctcaggcatc accatggcaa cctctgctat ccaacaatct
+      481 gctttcgctg gccaaacagc tttgaagcag tccaatgagc tcgtctgcaa gatcggtgcc
+      541 gtcggtggtg gtcgcgtttc catgcgtaga accgtcaaaa gtgctccaac cagcatctgg
+      601 tacgttacat tttgttgcat gcattaatct attttatgag caaaaaacat gagagagagg
+      661 gaaatattgt tctgattact tataaacagg tatggccctg accgcccaaa gtacttgggt
+      721 ccattctctg accaaatccc atcatacctg accggtgaat tccctgggga ctacgggtgg
+      781 gatactgctg gattatcagc tgacccagag acatttgcca agaaccgtga gcttgaggtg
+      841 atccactgta ggtgggctat gcttggtgcc cttggctgtg ttttccctga aattctttca
+      901 aagaatggtg tcaagttcgg agaggcggtt tggttcaagg ctggttccca aatcttctcc
+      961 gagggtggcc ttgactatct cggcaaccca aacctcatcc atgctcagag tattcttgct
+     1021 atctgggctt gccaagttgt gctcatggga tttgttgaag ggtacagagt tggtggtgga
+     1081 ccactcggtg aaggactcga cccaatttac ccaggtggtg cttttgaccc gcttggattg
+     1141 gctgatgacc ctgatgcctt cgcggaattg aaggttaagg agatcaagaa cggccgcctg
+     1201 gcaatgttct ccatgtttgg gttcttcgtc caggctattg tcactggaaa gggtcccatc
+     1261 gagaaccttt tcgaccacct tgctgatccg gtggccaaca atgcttgggc ttatgccact
+     1321 aactttgtcc ccggaaaatg aacaacttag atggagtcat agtcatagat gtgtctttga
+     1381 aagctgtaat gttaatcact gttcactatg aatgtggttt cgctacttat ctttggagct
+     1441 tttgtatcat taatgctttg atcttttgta attgaaatag tattttcttg atataactaa
+     1501 agcatgattt tctgcagcac ataagataaa cttctatggc acatatctat attaatcatt
+     1561 taatttccaa aaaaaaaaaa tcctggtcat ttacattaac acactgaaat taatacgagg
+     1621 atctaattct tacaatttat gttggaataa gtatttattc cagccaagag ctgaggcaat
+     1681 tcatctttta aatgaagaaa gtagctatta tctcttgtag aaattttcac gaccatagat
+     1741 tctaga
+//
+

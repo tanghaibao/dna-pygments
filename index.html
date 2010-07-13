@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Javascript bio-sequence highlighter</title>
+    <link rel="stylesheet" type="text/css" href="static/smoothness/jquery-ui-1.8.1.custom.css" />
+    <link rel="stylesheet" type="text/css" href="static/site.css" />
+    <link rel="stylesheet" type="text/css" href="static/dna-pygments.css" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load("jquery","1"); google.load("jqueryui", "1");</script>
+    <script type="text/javascript" src="static/dna-pygments.js"></script>
+    <script type="text/javascript" src="static/site.js"></script>
+<body>
+    <h1>Javascript bio-sequence highlighter</h1>
+    <p>
+    This is a simple javascript tool to decorate part of the DNA or protein sequence - see inspiration at <a href="http://plants.ensembl.org/Arabidopsis_thaliana/Transcript/Sequence_cDNA?db=core;g=AT3G52080-TAIR-G;r=3:19315043-19317843;t=AT3G52080.1-TAIR" target="_blank">ENSEMBL</a>. The demo sequence is downloaded from <a href='http://www.ncbi.nlm.nih.gov/nuccore/18481'>NCBI</a>.
+    </p>
+    <textarea rows="10" cols="50" id="fasta" onkeyup="run();"></textarea>
+    <textarea rows="10" cols="50" id="bed" onkeyup="run();"></textarea>
+    <br />
+    <br />
+    <div id="features"></div>
+    <br />
+    <div id="info"></div>
+    <div id="legend"></div>
+    <br />
+    <div id="display" style='font-family:"Courier New",Courier,monospace'></div>
+    <br /><br />
+    <input type="checkbox" id="check" /><label for="check">HTML source</label>
+    <div id="html_src" style='display:none; font-family:"Courier New",Courier,monospace; color:gray; font-size: 75%;'></div>
+</body>
+</html>
