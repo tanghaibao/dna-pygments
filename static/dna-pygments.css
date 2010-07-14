@@ -16,6 +16,7 @@
 }
 
 .CAAT_signal {
+    text-decoration: underline;
     background-color: green;
     color: white;
 }

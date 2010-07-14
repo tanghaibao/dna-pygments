@@ -80,16 +80,11 @@ Pygments.prototype = {
     linebreak: function(str) {
 
         var newstr = [], i;
-        var row = "";
-        for (i=0; i<str.length; i++) {
-            row += str[i];
 
-            if (row.length==DEFAULTS.CHAR_PER_LINE) {
-                newstr.push(row);
-                row = "";
-            }
+        for (i=0; i<str.length; i+=DEFAULTS.CHAR_PER_LINE) {
+            newstr.push(str.substr(i, DEFAULTS.CHAR_PER_LINE));
         }
-        if (row!="") newstr.push(row);
+        
         return newstr.join("<br />");
     },
 
@@ -169,10 +164,4 @@ String.prototype.template = function (o) {
         } 
     ); 
 }; 
-
-/* remove html tags 
- */
-String.prototype.removetags = function() {
-    return this.replace(/(<([^>]+)>)/ig, "");
-};
 

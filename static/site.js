@@ -47,5 +47,18 @@ function run() {
 
     // legend
     $('#legend').html(p.print_legend());
+    
+    // bind mouse over events
+    // TODO: strange behavior encountered when registering seqtypes
+    // jquery is not returning the correct wrap
+    var clickables = ["CAAT_signal"]
+    for (var i in clickables) {
+        var seqtype = clickables[i];
+        $('.' + seqtype).click(function() {
+            var text = "<b>Type:</b>" + seqtype + "<br />";
+            $('#dialog').html(text).dialog({title: seqtype});
+        });
+    }
+
 }
 
